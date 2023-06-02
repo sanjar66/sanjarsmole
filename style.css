@@ -1,0 +1,50 @@
+@media (min-width: 600px) and (max-width: 780px){
+    .navbar img{
+        width: 150px;
+    }
+    .btn{
+        padding: 5px;
+    }
+    .display_images{
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .image{
+        width: 150px;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 600px){
+    .navbar img{
+        width: 150px;
+    }
+    .btn{
+        padding: 5px;
+    }
+    .display_images{
+        grid-template-columns: auto auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .image{
+        width: 170px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 460px){
+    .navbar img{
+        width: 90%;
+    }
+    .btn{
+        padding: 5px;
+    }
+    .display_images{
+        grid-template-columns: auto;
+        padding: 30px;
+        text-align: center;
+    }
+    .image{
+        width: 300px;
+    }
+}
